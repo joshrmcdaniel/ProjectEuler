@@ -2,7 +2,7 @@ import sys
 
 def main(num):
     primes = [i for i in range(2, int(num ** .5) + 1) if num % i == 0 and prime(i)]
-    print(primes)
+    print(max(primes))
 
 
 def prime(num):
